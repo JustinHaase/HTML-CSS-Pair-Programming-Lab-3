@@ -9,10 +9,11 @@
 /* Float three columns side by side */
 .column {
     float: left;
-    width: 25%;
+    max-width:340px;
+    min-width: 340px;
     padding: 0 10px;
   }
-  
+   
   /* Remove extra left and right margins, due to padding */
   .row {margin: 0 -5px;}
   
@@ -40,11 +41,15 @@
     background-color: #f1f1f1;
   }
 
-  div{background-color: white;}
+  div{background-color: white;
+    padding: 20px;
+
+}
 
   /*style the button*/
   .button {
     border: none;
+    border-radius: 5px;
     color: white;
     padding: 16px 32px;
     text-align: center;
