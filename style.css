@@ -84,3 +84,7 @@ li {
     background-color: #008CBA;
     color: white;
   }
+
+  a {
+    text-decoration: none;
+  }
