@@ -105,3 +105,8 @@ li {
 .main-nav li {
 	           display:inline;
 }
+
+.price{
+  font-weight: bold;
+  font-size: 25px;
+}
