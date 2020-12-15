@@ -88,3 +88,9 @@ li {
   a {
     text-decoration: none;
   }
+
+  .name,
+.main-nav, 
+.main-nav li {
+	           display:inline;
+}
