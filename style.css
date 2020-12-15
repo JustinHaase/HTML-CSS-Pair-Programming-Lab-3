@@ -106,6 +106,8 @@ li {
 	           display:inline;
 }
 
+.name{float: left;}
+.main-nav{float: right;}
 .price{
   font-weight: bold;
   font-size: 25px;
