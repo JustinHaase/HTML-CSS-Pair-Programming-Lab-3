@@ -53,8 +53,8 @@ li {
     text-align: center;
     background-color: #f1f1f1;
   }
-
-  div{background-color: white;
+/*style the card's body*/
+  div .card-body{background-color: white;
     padding: 20px;
 
 }
