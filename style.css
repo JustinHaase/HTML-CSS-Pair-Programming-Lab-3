@@ -76,23 +76,23 @@ li {
 
   .button1 {
     background-color: white; 
-    color: black; 
-    border: 2px solid #008CBA;
+    color: #007bff; 
+    border: 2px solid #007bff;
   }
   
   .button1:hover {
-    background-color: #008CBA;
+    background-color: #007bff;
     color: white;
   }
 
   .button2 {
     background-color: white; 
-    color: black; 
-    border: 2px solid #008CBA;
+    color:#007bff; 
+    border: 2px solid #007bff;
   }
   
   .button2:hover {
-    background-color: #008CBA;
+    background-color: #007bff;
     color: white;
   }
 
