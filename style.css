@@ -74,6 +74,17 @@ li {
     cursor: pointer;
   }
 
+  .button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+  }
+  
+  .button1:hover {
+    background-color: #008CBA;
+    color: white;
+  }
+
   .button2 {
     background-color: white; 
     color: black; 
