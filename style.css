@@ -7,10 +7,27 @@
   }
   body {
     font-family: Arial, Helvetica, sans-serif;
+    
   }
 
-  header.nav {
-    background-color: red;
+  .main-header {
+    position: fixed;
+    background: white;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+    width: 100%;
+    top: 0;
+    left: 0;
+    margin: 0 auto;
+  }
+
+  .main-footer {
+      display: block;
+    }
+
+  
+
+  .main-content {
+    margin-top: 94px;
   }
 /* Float three columns side by side */
 .column {
@@ -18,10 +35,23 @@
     max-width:340px;
     min-width: 340px;
     padding: 0 10px;
+
   }
+
+  .col {
+    margin: auto;
+    float: left;
+    max-width:340px;
+    min-width: 340px;
+    padding: 0 10px;
+   }
+  
+
    
   /* Remove extra left and right margins, due to padding */
-  .row {margin: 0 -5px;}
+  .row {
+    margin: 0 -5px;
+  }
   
   /* Clear floats after the columns */
   .row:after {
@@ -29,13 +59,8 @@
     display: table;
     clear: both;
   }
-  
-  /*.sticky {
 
-  }*/
-li {
-  display: inline;
-}
+  
 
   /* Responsive columns */
   @media screen and (max-width: 600px) {
@@ -111,8 +136,4 @@ li {
 .price{
   font-weight: bold;
   font-size: 25px;
-}
-
-.main-header{
-  overflow: hidden;
 }
